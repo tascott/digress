@@ -1,5 +1,6 @@
 import { Terminal } from 'lucide-react'
 import { useEffect } from 'react'
+import { ChatInput } from 'renderer/components/openAI/ChatInput'
 
 import {
   Alert,
@@ -28,9 +29,7 @@ export function MainScreen() {
         <AlertDescription className="flex items-center gap-2 text-lg">
           <Terminal className="size-6 text-fuchsia-300" />
 
-          <span className="text-gray-400">
-            It's time to build something awesome!
-          </span>
+          <ChatInput />
         </AlertDescription>
       </Alert>
     </main>
