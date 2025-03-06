@@ -14,7 +14,7 @@ export async function MainWindow() {
     show: false,
     center: true,
     movable: true,
-    resizable: false,
+    resizable: true,
     alwaysOnTop: true,
     autoHideMenuBar: true,
 
